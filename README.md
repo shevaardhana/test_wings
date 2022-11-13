@@ -1,3 +1,18 @@
+<h5>Tutorial Set Up</h5>
+<ul>
+    <li>git clone repositori ini</li>
+    <li>Melalui terminal, cd ke direktori folder ini</li>
+    <li>lalu "composer install"</li>
+    <li>lalu Buat database baru (kosong) pada sql dangan nama db_penjualan</li>
+    <li>Duplikat file .env.example, lalu rename menjadi .env</li>
+    <li>Jalan kan perintah php artisan migrate</li>
+    <li>Jalan kan perintah php artisan db:seed</li>
+</ul>
+
+<h5>Contoh Data User</h5>
+<p>user: Smit</p>
+<p>password: _smlt_OK</p>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
